@@ -23,7 +23,7 @@ public class PrincipalCuenta {
             System.out.println("6) Retirar");
             System.out.println("7) Consultar saldo");
             System.out.println("8) Consultar Estado (toString)");
-            System.out.println("9) Agregar nombre a la cuenta seleccionada");
+            System.out.println("9) Agregar nombre a cuentas sin nombre");
             System.out.println("0) Salir");
             System.out.print("Opción: ");
             String op = sc.nextLine().trim();

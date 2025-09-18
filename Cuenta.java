@@ -79,7 +79,7 @@ public class Cuenta {
             return false;
     }
     
-    public int getCantCuentasCreadas() {
+    public static int getCantCuentasCreadas() {
         return cantCuentasCreadas;
     }
     
@@ -94,6 +94,7 @@ public class Cuenta {
         msg += "Código: " + codCuenta + "\n";
         msg += "Nombre: " + nombreCuentaHabiente + "\n";
         msg += "Saldo: " + saldo + "\n";
+        msg += "Fecha de creación: " + fechaCreacion + "\n";
         msg += "Cantidad depositos realizados: " + cantDepositosRealizados + "\n";
         msg += "Cantidad retiros exitosos realizados: " + cantRetirosExitososRealizados + "\n";
         msg += "=====================================\n\n";
